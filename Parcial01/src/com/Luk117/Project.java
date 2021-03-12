@@ -39,9 +39,16 @@ public class Project {
      * @return false if the project has open activities or the dateEnd is before than the system date.
      */
     public boolean isActive() {
-        boolean isActive
+        boolean isActive=true;
 
-    public int counOpenActivities(){
+        if(LocalDate.now().isAfter(this.dateEnd)){
+            isActive=false;
+        }else{
+            int openActivities=this.countOpenActivities();
+            isActive=openActivities >0;
+        }
+
+    public int countOpenActivities() {
         int count = 0;
         for (Iteration i: this.iterations){
             count += i.countOpenActivities();
