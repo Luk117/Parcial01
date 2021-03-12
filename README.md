@@ -44,5 +44,5 @@ Si no se puede acceder a elementos privados desde otra clase este se consigue co
 
 **Mapa Conceptual**
 
-![image](https://user-images.githubusercontent.com/78616272/111009222-0e4e2200-8361-11eb-9a0a-1180bdfa8b57.png)
+
 
