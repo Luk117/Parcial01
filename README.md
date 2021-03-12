@@ -41,3 +41,8 @@ Si no se puede acceder a elementos privados desde otra clase este se consigue co
 
 ![WhatsApp Image 2021-03-05 at 7 25 31 PM](https://user-images.githubusercontent.com/78616272/110188243-13532480-7de9-11eb-86df-614a3972df8e.jpeg)
 
+
+**Mapa Conceptual**
+
+![image](https://user-images.githubusercontent.com/78616272/111009222-0e4e2200-8361-11eb-9a0a-1180bdfa8b57.png)
+
