@@ -4,8 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Proyect {
-
+public class Project {
     private String name;
     private LocalDate dateInit;
     private LocalDate dateEnd;
@@ -40,7 +39,14 @@ public class Proyect {
      * @return false if the project has open activities or the dateEnd is before than the system date.
      */
     public boolean isActive() {
-        return false;
+        boolean isActive
+
+    public int counOpenActivities(){
+        int count = 0;
+        for (Iteration i: this.iterations){
+            count += i.countOpenActivities();
+        }
+        return count;
     }
 
 }
